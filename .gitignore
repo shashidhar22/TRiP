@@ -1,0 +1,16 @@
+# Nexflow files
+.nextflow*
+nextflow.config
+# Data
+data 
+fold
+output
+test
+temp
+work
+# Config file
+# Ignore all .yml files in config folder
+config/*.yml
+
+# Except those that include "template" in the filename
+!config/*template*.yml
