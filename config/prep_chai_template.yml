@@ -1,0 +1,16 @@
+params:
+  input:
+    netmhcpan_path: "/dummy/path/netMHCpan/bin/netMHCpan"
+    netmhcpan_folder: "/dummy/path/netMHCpan"
+    netmhcpan_tmpdir: "/dummy/temp/netmhcpan"
+    reference_fasta: "dummy/test/"
+    hla_alleles: "dummy/data/alleles.txt"
+    tcr_table: "dummy/data/ks_tcr_list.csv"
+  output:
+    folder: "/dummy/output/chai"
+  conda: "/dummy/envs/quest"
+  config:
+    scripts_path: "/dummy/projects/TRiP/scripts/"
+    hla_dir: "/dummy/databases/IMGTHLA/fasta/"
+
+workDir: "/dummy/work/chai"
